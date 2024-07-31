@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker-agent' }
+    agent { label 'docker' }
 
     parameters {
         string(name: 'VERSION', defaultValue: 'latest', description: 'Docker Image Version')
